@@ -11,13 +11,70 @@
   --font-family-title: "Archivo", sans-serif;
 
   --color-title: #CF0F0F;
+  --color-contrast: #ffffff;
   --color-paragraph: #000000;
   --color-border-in:#FF0000;
   --color-border-out:#000000;
 
-  --text-regular: 400 1.rem/1.95rem var(--font-family-paragraph);
+  --text-regular: 400 1rem/1.95rem var(--font-family-paragraph);
   --text-regular-title: 400 2rem/2.18rem var(--font-family-title);
   --text-regular-h2: 400 4.8rem/5.2rem var(--font-family-title);
   --text-regular-button: 400 2rem/2.18rem var(--font-family-title);
   --text-regular-paragraph: 400 1.6rem/1.98rem var(--font-family-paragraph);
 }
+
+.light-theme {
+  --page-background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #ffffff 65%,
+    rgba(255, 255, 255, 0.75) 100%
+  );
+  --header-background-color: #e3e3e3;
+  --highlight-color: #000000;
+  --featured-font-family: var( --font-family-title);
+  --character-top-image-src: url("../images/characters/kids-on-the-bike.svg");
+  --character-top-image-color: #ffffff;
+  --character-bottom-image-src: url("../images/characters/inverted-world-monster.svg");
+  --character-bottom-image-color: #e5e5e5;
+  --background-lamp-image: url("../images/backgrounds/lamps.png");
+  --footer-background-color: #b5bbbf;
+}
+
+.dark-theme {
+  --page-background: linear-gradient(
+    180deg,
+    #050000 0%,
+    #130404 65%,
+    rgba(19, 1, 1, 0.75) 100%
+  );
+  --header-background-color: #220f0f;
+  --highlight-color: #ffffff;
+  --featured-font-family: var(-font-family-invert-world);
+  --character-bottom-image-src: url("../images/characters/kids-on-the-bike.svg");
+  --character-bottom-image-color: rgba(255, 255, 255, 0.1);
+  --character-top-image-src: url("../images/characters/inverted-world-monster.svg");
+  --character-top-image-color: #000;
+  --background-lamp-image: url("../images/backgrounds/lamps-inverted.png");
+  --footer-background-color: #000;
+}
+
+.dark-theme button,
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3 {
+  letter-spacing: 0.5rem;
+}
+
+.dark-theme .invert-element {
+  transform: rotateZ(180deg) scaleX(-1);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--text-regular);
+  background: var(--page-background);
+}
+
+
