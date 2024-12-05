@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+  --font-family-invert-world: "Rubik Glitch", system-ui;
+  --font-family-paragraph: "Libre Baskerville", serif;
+  --font-family-title: "Archivo", sans-serif;
+
+  --color-title: #CF0F0F;
+  --color-paragraph: #000000;
+  --color-border-in:#FF0000;
+  --color-border-out:#000000;
+
+  --text-regular: 400 1.rem/1.95rem var(--font-family-paragraph);
+  --text-regular-title: 400 2rem/2.18rem var(--font-family-title);
+  --text-regular-h2: 400 4.8rem/5.2rem var(--font-family-title);
+  --text-regular-button: 400 2rem/2.18rem var(--font-family-title);
+  --text-regular-paragraph: 400 1.6rem/1.98rem var(--font-family-paragraph);
+}
