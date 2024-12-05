@@ -213,7 +213,7 @@ section {
 }
 
 #section-form .form-content h3 span {
-  color: var(--primary-color);
+  color: var(--color-title);
 }
 
 #section-form .form-content {
@@ -249,21 +249,28 @@ section {
   flex-direction: column;
   justify-content: center;
   padding: 2.4rem;
-  background-color: var(--primary-color);
-  color: var(--primary-color-contrast);
+  background-color: var(--color-title);
+  color: var(--color-contrast);
   text-align: left;
+}
+
+#section-form .form-container form :is(input, textarea) {
+  border: 2px solid var(--color-contrast);
+  background-color: var(--color-paragraph);
+  color: var(--color-contrast);
+  padding: 1.6rem;
 }
 
 #section-form .form-container form button {
   border: none;
-  background-color: var(--field-background-color);
-  color: var(--primary-color-contrast);
+  background-color: var(--color-paragraph);
+  color: var(--color-contrast);
   max-width: 30rem;
   align-self: center;
 }
 
 #section-form .form-container form button:hover {
-  background-color: var(--primary-color-contrast);
-  color: var(--field-background-color);
+  background-color: var(--color-contrast);
+  color: var(--color-paragraph);
 }
 
