@@ -20,6 +20,10 @@ header::before {
   opacity: 0.2;
 }
 
+header #switch-theme-button {
+  font: var(--text-regular-button);
+}
+
 .header-content {
   max-width: 70rem;
   padding: 8rem 2rem;
@@ -36,7 +40,7 @@ header::before {
 }
 
 .header-content button {
-  border: 3px solid var(--color-title);
+  border: 0.3rem solid var(--color-title);
   color: var(--color-title);
 }
 
@@ -44,3 +48,5 @@ header::before {
   background-color: var(--color-title);
   color: var(--color-contrast);
 }
+
+
