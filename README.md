@@ -1,12 +1,12 @@
-# Dio-Bootcamp_Ri-Happy-Jogo Yu-Gi-OH
+# Dio-Bootcamp_Ri-Happy - Mundo Invertido Stranger Things
 
-Este projeto é um jogo criado e desenvolvido pelo instrutor da Dio Felipe Aguiar (O Felipão) e faz parte do Bootcamp Ri-Happy - Front-end do Zero. O objetivo principal é explorar a lógica de programação em JavaScript para criar uma experiência dinâmica e divertida. O jogo utiliza lógicas avançadas de JavaScript, como controle de estado (state) e arquivos JSON para inserção dinâmica dos cards na janela e no placar do jogo. Este projeto combina manipulação de DOM para criar uma aplicação funcional e envolvente.
+Este projeto é uma página inspirada no Mundo Invertido de Stranger Things, apresentada pelos instrutores da DIO, Michele Ambrosio e Diogo Mainardes, como parte do Bootcamp Ri-Happy - Front-end do Zero. O objetivo principal é explorar as possibilidades de estilização com CSS, juntamente com a aplicação de lógica de programação em JavaScript, para criar uma experiência interativa e envolvente. O projeto destaca a manipulação do DOM, integrando recursos dinâmicos e criativos, resultando em uma aplicação funcional e divertida.
 
-## Página de registro das informações sobre o Jogo Yu-Gi-OH
+## Página de registro das informações sobre o Mundo Invertido Stranger Things
 
 ### 📜 Sobre o Projeto
 
-Jogo de Cartas Interativo inspirado no universo de Yu-Gi-Oh!, criado por Kazuki Takahashi, este projeto recria a essência de duelos estratégicos com cartas únicas e relações de vitória e derrota. Inspirado no famoso jogo que surgiu como parte do mangá lançado em 1996, o projeto homenageia o legado de um dos card games mais populares do mundo, combinando lógica, design e interatividade.
+Uma landing page inspirada na série da Netflix Stranger Things, a 2ª série mais assistida da plataforma. Este projeto mergulha no fascinante Mundo Invertido, capturando a atmosfera sombria e envolvente da 4ª temporada, onde os heróis enfrentam desafios ainda mais perigosos e tomam decisões que mudarão suas vidas para sempre. Com uma combinação de estilização avançada em CSS e lógica de programação em JavaScript, esta página cria uma experiência visual e interativa que reflete a essência da série, convidando os usuários a explorar os segredos e perigos do Mundo Invertido.
 
 
 ### 🔗 Links Úteis
@@ -17,65 +17,37 @@ Jogo de Cartas Interativo inspirado no universo de Yu-Gi-Oh!, criado por Kazuki 
 
 ### ✅ Status do Projeto
 
-**Em Desenvolvimento**
+**Concluído**
 
 ### 🎥 Deploy
 
-  https://ricardo-werner.github.io/Dio-Bootcamp-Ri-Happy-Jogo_Cartas_Yu-Gi-Oh/
+  https://ricardo-werner.github.io/Dio-Bootcamp-Ri-Happy-Mundo_Invertido/
 
-#### Tela da Página do Jogo YU-GI-OH em Ação
+#### Gif da Página do Mundo Invertido 
 <p align="center">
-  <img width="480" src="./src/to_readme/yu-gi-oh.gif" alt="gif animado da tela da página do jogo do YU-Gi-OH"
+  <img width="480" src="./src/assets/to_readme/mundoInvertido.gif" alt="gif animado da tela da página do jogo do YU-Gi-OH"
 </p>
 
-#### Tela da Página do Jogo YU-GI-OH
+#### Tela Inicial Normal da Página do Mundo Invertido 
 <p align="center">
-  <img width="480" src="./src/to_readme/tela_inicial.PNG" alt="imagem da tela da página do jogo do YU-Gi-OH"
+  <img width="480" src="./src/assets/to_readme/tela_inicial_normal.PNG" alt="gif da tela da página do Mundo Invertido"
 </p>
 
-#### Tela da Página do Jogo YU-GI-OH com Mensagem sem Usuário
+#### Tela Invertida da Página do Mundo Invertido 
 <p align="center">
-  <img width="480" src="./src/to_readme/tela_msg_inicial_vazia.PNG" alt="imagem da tela da página do jogo do YU-Gi-OH"
+  <img width="480" src="./src/assets/to_readme/tela_inicial_invertido.PNG" alt="imagem da tela normal da página do Mundo Invertido"
 </p>
 
-#### Tela da Página Inicial do Jogo YU-GI-OH
-<p align="center">
-  <img width="480" src="./src/to_readme/tela_inicial_inicio_jogo.PNG" alt="imagem da tela da página do jogo do YU-Gi-OH"
-</p>
 
-#### Tela da Página do Jogo YU-GI-OH Inicio do Jogo
-<p align="center">
-  <img width="480" src="./src/to_readme/tela_jogo.PNG" alt="imagem da tela da página do jogo do YU-Gi-OH"
-</p>
 
-#### Tela da pagina do Jogo YU-GI-OH WIN 
+#### Tela do código do Código
 <p align="center">
-  <img width="480" src="./src/to_readme/tela_duel_result_win.PNG" alt="imagem da tela do resultado do duelo - vencedor">
-</p>
-
-#### Tela da pagina do Jogo YU-GI-OH LOSE (Perdedor)
-<p align="center">
-  <img width="480" src="./src/to_readme/tela_duel_result_lose.PNG" alt="imagem da tela do resultado do duelo - perdedor">
-</p>
-
-#### Tela da pagina do Jogo YU-GI-OH DRAW (Empate)
-<p align="center">
-  <img width="480" src="./src/to_readme/tela_duel_result_draw.PNG" alt="imagem da tela do resultado do duelo - empate">
-</p>
-
-#### Tela do código do Jogo YU-GI-OH
-<p align="center">
-  <img width="480" src="./src/to_readme/tela_codigo.PNG" alt="imagem dos códigos utilizados na programação da do jogo YU-GI-OH">
-</p>
-
-#### Tela do arquivo JSON do YU-GI-OH
-<p align="center">
-  <img width="480" src="./src/to_readme/tela_json.PNG" alt="imagem do arquivo json do YU-GI-OH">
+  <img width="480" src="./src/assets/to_readme/tela_codigo.PNG" alt="imagem dos códigos utilizados na programação da página do Mundo Invertido">
 </p>
 
 ### 🧩 Desafio
 
-  O desafio deste projeto foi recriar o tabuleiro e a lógica de duelos do icônico universo de Yu-Gi-Oh!, desenvolvendo cartas únicas, relações estratégicas de vitória e derrota, e elementos visuais que tornam a experiência interativa e dinâmica.
+  O desafio desse projeto foi trazer todo o ambiente de Stranger Things para a página e traduzir isso em linhas de códigos, recriando o clima tenso e misterioso do Mundo Invertido. A ideia era usar o CSS para dar um visual marcante e o JavaScript para adicionar uma interação e deixar tudo mais dinâmico. O maior trabalho foi conseguir pensar nos opostos da página normal e do mundo invertido e tornar a página envolvente e divertida, enquanto aprendia sobre como fazer tudo isso funcionar junto.
 
 
 ### 📝 Requisitos da Aplicação
@@ -83,10 +55,9 @@ Jogo de Cartas Interativo inspirado no universo de Yu-Gi-Oh!, criado por Kazuki 
 | Item  | Descrição                                                                       |
 |-------|---------------------------------------------------------------------------------|
 |  1    | A página deve ser desenvolvida em HTML, CSS e Javascript                        |
-|  1.1  | Base de design: https://www.figma.com/community/file/1400417262485387501        |
+|  1.1  | Base de design no Figma: https://tinyurl.com/22qbgw6f                           |
 |  2    | Modelagem do layout, formatos, tipografias, cores e organização livre.          |
-|  3    | Distribuição dos cards deve ser dinâmica                                        |
-|  4    | Adicionar funcionalidades para deixar o jogo mais interativo e imersivo         |
+|  3    | Adicionar funcionalidade para inverter todo o design da página                  |
 
 
 ### 🚀 Plano do Projeto
@@ -110,28 +81,28 @@ No desenvolvimento desta página, foram aplicados os seguintes conceitos:
 
 ### 💡 Reflexões
 
-Desenvolver este projeto representou uma evolução significativa no meu aprendizado em programação, permitindo-me aprender e aplicar conceitos mais avançados de JavaScript. Durante o processo, explorei suas capacidades para criar interatividade e dinâmicas que simulam os duelos do icônico jogo de cartas Yu-Gi-Oh!. Além disso, o projeto reforçou meu entendimento sobre manipulação de dados, lógica de programação e criação de relações estratégicas entre os elementos do jogo, contribuindo de forma contínua para o meu crescimento como desenvolvedor web.
+"Desenvolver este projeto foi mais um marco importante na minha jornada de aprendizado em programação, permitindo-me mergulhar em conceitos mais avançados do CSS e JavaScript. Neste projeto, desenvolvi metodoligias para criar interatividade e dinâmicas que capturam a característica sombria e misteriosa do Mundo Invertido. Trabalhei com manipulação de dados e lógica de programação para dar vida a elementos que refletem os desafios enfrentados pelos heróis na série, recriando a tensão e a atmosfera única de Stranger Things. Este projeto não só expandiu meu entendimento sobre o desenvolvimento web, mas também foi uma oportunidade incrível de unir criatividade e aprendizado em mais uma experiência divertida.
 
 ### 📦 Como Executar o Projeto
 
 1. Clone o repositório:
    
-    git clone https://github.com/ricardo-werner/Dio-Bootcamp-Ri-Happy-Jogo_Cartas_Yu-Gi-Oh.git
+    git clone https://github.com/ricardo-werner/Dio-Bootcamp-Ri-Happy-Mundo_Invertido.git
 
 3. Abra o projeto no Visual Studio Code e ative o Go Live:
     
    <p align="center">
-     <img width="280" src="./src/to_readme/GoLive.jpg" alt="Ativando o Go Live">
+     <img width="280" src="./src/assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
    </p>
 
    <p align="center">
-     <img width="280" src="./src/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
+     <img width="280" src="./src/assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
    </p>
 
 4. Visualize o resultado na página web:
 
    <p align="center">
-     <img width="480" src="./src/to_readme/telaWeb.PNG" alt="Resultado na Web">
+     <img width="480" src="./src/assets/to_readme/telaWeb.PNG" alt="Resultado na Web">
    </p>
 
 
