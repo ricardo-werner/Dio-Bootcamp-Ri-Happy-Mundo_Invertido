@@ -70,11 +70,6 @@ textarea:focus-visible {
 }
 
 
-
-
-
-/*** WORLD CHARACTERS STYLES ***/
-
 .world-characters {
   width: 100%;
   max-width: 90rem;
@@ -91,22 +86,25 @@ textarea:focus-visible {
 }
 
 .world-characters#bottom-characters {
-  height: 50rem;
+  height: 44rem;
   background-color: var(--character-bottom-image-color);
   top: 0.3rem;
   transform: rotateZ(180deg) scaleX(-1);
   position: relative;
+  z-index: 10;
 
   mask: var(--character-bottom-image-src) bottom / contain no-repeat;
   -webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
 }
 
-/*** SECTIONS STYLES ***/
+
 
 section {
   display: flex;
   justify-content: space-between;
   margin-bottom: 9.5rem;
+  position: relative;
+  z-index: 5;
 }
 
 /* Section 01 - Inverted World */
