@@ -1,30 +1,27 @@
 h2,
 h3 {
-  font: var(--font-family-tittle);
-  font-size: 3rem;
+  font: var(--text-regular-h2);
   color: var(--color-title);
   text-transform: uppercase;
   margin-bottom: 4rem;
 }
 
 p {
-  color: var(--color-paragraph);
+  color: var(--highlight-color);
 }
 
 p,
 input,
 textarea,
 label {
-  font: var(--font-family-paragraph
-  )
+  font: var(--text-regular-paragraph)
 }
 
 button {
   padding: 1.6rem 3.2rem;
   background-color: transparent;
   font-weight: 900;
-  font: var(--font-family-tittle);
-  font-size: 1.25rem;
+  font: var(--text-regular-button-form);
   text-transform: uppercase;
   cursor: pointer;
   transition: background 1s;
@@ -44,16 +41,16 @@ main::before {
   height: 100%;
   position: absolute;
   background: var(--page-background) no-repeat,
-    url("./src/assets/images/backgrounds/florest.png") no-repeat;
+    url("../images/backgrounds/florest.png") no-repeat;
   background-size: cover;
   z-index: -1;
 }
 
 input,
 textarea {
-  border: 2px solid var(--primary-color-contrast);
-  background-color: var(--field-background-color);
-  color: var(--primary-color-contrast);
+  border: 2px solid var(--color-contrast);
+  background-color: var(--color-field-bg);
+  color: var(--color-contrast);
   padding: 0.8rem;
 }
 
@@ -143,7 +140,7 @@ section {
 }
 
 #section-stranger-things-trailer .video-frame {
-  background-color: var(--primary-color);
+  background-color: var(--color-title);
 }
 
 #section-stranger-things-trailer .video-frame iframe {
@@ -152,8 +149,8 @@ section {
   left: 2.4rem;
   border: 2px solid;
   border-image: linear-gradient(
-    var(--primary-color),
-    var(--primary-color-contrast)
+    var(--color-title),
+    var(--color-contrast)
   );
   border-image-slice: 10;
 }
@@ -184,7 +181,7 @@ section {
   width: 25rem;
   height: 25rem;
   outline: 20px solid var(--highlight-color);
-  border: 3px solid var(--primary-color);
+  border: 3px solid var(--color-title);
   box-sizing: initial;
 }
 
